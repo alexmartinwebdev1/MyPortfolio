@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./media.css">
+  <script defer src="./app.js"></script>
+  <title>Document</title>
+</head>
+<body id="home">
+  <header class="header">
+    <nav class="nav">
+      <div class="container">
+        <div class="logo-container">
+          <h5>&lt;AM/&gt;</h5>
+        </div>
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="#video" class="nav-link btn video-btn"><i class="fa-solid fa-video"></i> Watch Video</a>
+          </li> -->
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="showcase">
+    <div class="container">
+      <div class="showcase-text">
+        <div class="hello">
+          <h3>Hello, I'm</h3>
+        </div>
+        <div class="name">
+          <h1>Alex Martin</h1>
+        </div>
+        <div class="title">
+          <h3>A <span class="color-primary">Designer</span> and <span class="color-primary">Full Stack Web Developer</span></h3>
+        </div>
+        <div class="description">
+          <p class="typing">I'm a creative designer and full stack web developer that is very passionate and dedicated to his work.</p>
+          <p class="hide-text">I'm a creative designer and full stack web developer that is very passionate and dedicated to his work.</p>
+        </div>
+        <div class="about-link">
+          <a href="#about" class="btn btn-showcase">About Me</a>
+        </div>
+      </div>
+      <div class="showcase-image">
+        <img src="./images/my-photo.svg" alt="My Photo">
+      </div>
+    </div>
+  </div>
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-heading">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="./images/my-photo-about.svg" alt="My Photo">
+        </div>
+        <div class="about-text">
+          <h3 class="about-heading">A Few Words About Me...</h3>
+          <p>I am full stack web developer and I am looking to be part of a great team on which I can work on cool and creative projects. Although I am most proficient in vanilla JavaScript, NodeJS, Express and React, I also know PHP, Laravel and WordPress and I am always looking to learn knew skills and expand my professional palette.</p>
+          <p>In my free time I like to engage in physical activity or play the guitar. I also enjoy socializing, meeting new people and taking longs walks in the woods or on the beach.</p>
+          <p>Now that you found out a few things about me, I invite you to take a look at some of my projects in order to get a better idea of what I'm capable of and if I would be a good fit for your company. I hope to hear from you soon ;)
+          </p>
+          <a href="#projects" class="btn btn-about"><i class="fa-solid fa-arrow-down"></i> Take a look at my projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="skills-left">
+        <h2 class="skills-heading">Skillset</h2>
+        <p class="skills-desc">
+          In this section I would like to write a bit about the skills I posess which include vanilla JavaScript, NodeJS, Express, React, MongoDB, PHP, MySQL, Wordpress, Figma, Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects.
+        </p>
+      </div>
+      <div class="skills-right">
+        <div class="row">
+          <div class="col">
+            <div class="skill-logo">
+              <img src="./images/js.png" alt="">
+            </div>
+            <div class="skill-title">
+              <h6>JavaScript</h6>
+            </div>
+            <div class="skill-desc">
+              <p>I write vanilla JavaScript, making use of modern features (ES6 & up) to create cool and interactive websites and web apps</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-logo">
+              <img src="./images/react.png" alt="">
+            </div>
+            <div class="skill-title">
+              <h6>React</h6>
+            </div>
+            <div class="skill-desc">
+              <p>I use React to build modern user interfaces based on UI Components. It really makes the development process much easier</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="skill-logo">
+              <img src="./images/nodejs-express.png" alt="">
+            </div>
+            <div class="skill-title">
+              <h6>NodeJS & Express</h6>
+            </div>
+            <div class="skill-desc">
+              <p>I use NodeJS & Express to create backend APIs that I can then make requests to from the front end - mainly using React</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-logo">
+              <img src="./images/mongodb.png" alt="">
+            </div>
+            <div class="skill-title">
+              <h6>MongoDB</h6>
+            </div>
+            <div class="skill-desc">
+              <p>I like to use MongoDB because it uses JSON-like documents with optional schemas, making it very easy to use with React</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="skill-logo">
+              <img src="./images/php.png" alt="">
+            </div>
+            <div class="skill-title">
+              <h6>PHP</h6>
+            </div>
+            <div class="skill-desc">
+              <p>PHP is a language I learned when I was working with WordPress. Nowadays I prefer to write JavaScript, but I can also use PHP if needed</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-logo">
+              <img src="./images/mysql.png" alt="">
+            </div>
+            <div class="skill-title">
+              <h6>MySQL</h6>
+            </div>
+            <div class="skill-desc">
+              <p>Since I know PHP, I also know how to work with MySQL and even though now I mainly use MongoDB, I can also work with MySQL if there is a need to</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="skill-logo">
+              <img src="./images/wordpress.png" alt="">
+            </div>
+            <div class="skill-title">
+              <h6>Wordpress</h6>
+            </div>
+            <div class="skill-desc">
+              <p>I learned WordPress since it is the most popular CMS in the world. I can take HTML & CSS templates and convert them to WordPress themes</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="skill-logo">
+              <img src="./images/figma.svg" alt="">
+            </div>
+            <div class="skill-title">
+              <h6>Figma</h6>
+            </div>
+            <div class="skill-desc">
+              <p>I use Figma to either sketch out some ideas for a new project or create full fledged designs that I can then implement using my web development skills</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects section" id="projects">
+    <div class="container">
+      <h2 class="section-heading">Projects</h2>
+      <div class="projects-content">
+        <div class="row">
+          <div class="project">
+            <div class="project-top">
+              <img src="./images/project1.jpg" alt="Project 1 Photo">
+            </div>
+            <div class="project-bottom">
+              <div class="project-title">Github Finder App</div>
+              <div class="project-desc">
+                <p>This is a web app that I created using HTML, CSS and Vanilla JavaScripts. You can search for users and then pick one from a list of fetched users and view his single profile where you can learn more about that particular user. Also, you will be able to see his most recent github repos. I created this project mainly to show that I can work with a 3rd party API and use it to create a cool, interactive app.</p>
+              </div>
+              <div class="project-buttons">
+                <a href="#live-demo" class="btn"><i class="fa-solid fa-globe"></i> Live Demo</a>
+                <a href="#github-repo" class="btn"><i class="fa-brands fa-github"></i> Github Code</a>
+                <a href="#video-presentation" class="btn"><i class="fa-solid fa-video"></i> Video Presentation</a>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="project-top">
+              <img src="./images/project1.jpg" alt="Project 1 Photo">
+            </div>
+            <div class="project-bottom">
+              <div class="project-title">Github Finder App</div>
+              <div class="project-desc">
+                <p>This is a web app that I created using HTML, CSS and Vanilla JavaScripts. You can search for users and then pick one from a list of fetched users and view his single profile where you can learn more about that particular user. Also, you will be able to see his most recent github repos. I created this project mainly to show that I can work with a 3rd party API and use it to create a cool, interactive app.</p>
+              </div>
+              <div class="project-buttons">
+                <a href="#live-demo" class="btn"><i class="fa-solid fa-globe"></i> Live Demo</a>
+                <a href="#github-repo" class="btn"><i class="fa-brands fa-github"></i> Github Code</a>
+                <a href="#video-presentation" class="btn"><i class="fa-solid fa-video"></i> Video Presentation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-2">
+          <div class="project">
+            <div class="project-top">
+              <img src="./images/project1.jpg" alt="Project 1 Photo">
+            </div>
+            <div class="project-bottom">
+              <div class="project-title">Github Finder App</div>
+              <div class="project-desc">
+                <p>This is a web app that I created using HTML, CSS and Vanilla JavaScripts. You can search for users and then pick one from a list of fetched users and view his single profile where you can learn more about that particular user. Also, you will be able to see his most recent github repos. I created this project mainly to show that I can work with a 3rd party API and use it to create a cool, interactive app.</p>
+              </div>
+              <div class="project-buttons">
+                <a href="#live-demo" class="btn"><i class="fa-solid fa-globe"></i> Live Demo</a>
+                <a href="#github-repo" class="btn"><i class="fa-brands fa-github"></i> Github Code</a>
+                <a href="#video-presentation" class="btn"><i class="fa-solid fa-video"></i> Video Presentation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-heading">Contact Me</h2>
+      <div class="contact-content">
+        <div class="contact-left">
+          <div class="email">
+            <div class="icon icon-email">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="email-text">
+              <h6>Email</h6>
+              <p>contact@alexmartinwebdev.org</p>
+            </div>
+          </div>
+          <div class="phone">
+            <div class="icon icon-phone">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="phone-text">
+              <h6>Phone</h6>
+              <p>+40744 653 029</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form class="form" action="POST" data-netlify="true">
+            <div class="rows">
+              <div class="row">
+                <div class="form-group">
+                  <input type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group">
+                  <input type="text" id="phone" name="phone" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                  <input type="text" id="subject" name="subject" placeholder="Subject">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <textarea placeholder="Message" id="message" name="message" rows="7"></textarea>
+            </div>
+            <div class="submit">
+              <button type="submit" class="btn btn-submit">Send Message <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        Alex Martin &dash; Web Designer & Full Stack Web Developer. Copyright &copy; 2022. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
